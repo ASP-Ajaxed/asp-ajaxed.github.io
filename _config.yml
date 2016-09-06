@@ -1,0 +1,35 @@
+# Pretzel Settings
+pretzel:
+    engine: liquid
+
+# Site Setup
+title:            ASP-Ajaxed
+tagline:          ''
+description:      ''
+imageurl:         ''
+url:              ''
+only_frontmatter_categories: true
+
+author:
+  name:           'Mark Bussell Jr. (AnonJr)'
+  url:            https://twitter.com/anonjr
+
+# Site Config
+tag_pages_layout: tagpage
+show_drafts:      false
+
+# Google Analytics
+google_analytics_tracking_id: 
+
+# Permalinks
+permalink:        /:year/:month/:title.html
+paginate_path:    "page/:num"
+
+paginate:         5
+
+# Misc
+exclude:
+  - _misc
+  - readme.md
+  - .gitignore
+  - .git

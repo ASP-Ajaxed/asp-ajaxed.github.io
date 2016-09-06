@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+    Everything : Mark Bussell Jr (AnonJr)
+    Blog       : http://blog.anonjr.com/
+    Twitter    : @AnonJr
+    CV         : http://careers.stackoverflow.com/anonjr
+
+# SITE
+	Language   : English
+	Standards  : HTML5, CSS3
+	Components : HTML5Shiv, YUI3 CSS Reset
+	Dev Tools  : Visual Studio Code, Pretzel, Paint.NET
+
+# SPECIAL THANKS
+	http://browsershots.org/
+    https://github.com/Code52/pretzel/
