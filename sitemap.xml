@@ -7,7 +7,6 @@ layout: nil
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
   http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <!-- Generated with pretzel -->
   {% for post in site.posts %}
   <url>
     <loc>http://domain{{ post.url }}</loc>
@@ -16,7 +15,7 @@ layout: nil
     <priority>1.00</priority>
   </url>
   {% endfor %}
-  
+
   {% for page in site.pages %}
 	{% if page.url %}
 	<url>
