@@ -8,8 +8,8 @@ permalink:           /:categories/:title/
 
 # Setup
 title:            ASP-Ajaxed
-tagline:          ''
-description:      ''
+tagline:          'Classic ASP(VBScript)/AJAX Web Development Library'
+description:      'ASP-Ajaxed is an open source, rapid development web library for Classic ASP (VBScript); full AJAX support inclusive.'
 url:              http://asp-ajaxed.org
 baseurl:          /
 imageurl:         ''
