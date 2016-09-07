@@ -1,31 +1,37 @@
-# Pretzel Settings
-pretzel:
-    engine: liquid
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
 
-# Site Setup
+# Permalinks
+permalink:           /:categories/:title/
+relative_permalinks: true
+
+# Setup
 title:            ASP-Ajaxed
 tagline:          ''
 description:      ''
+url:              http://asp-ajaxed.org
+baseurl:          /
 imageurl:         ''
-url:              ''
 only_frontmatter_categories: true
+tag_pages_layout: tagpage
+show_drafts:      false
 
 author:
   name:           'Mark Bussell Jr. (AnonJr)'
   url:            https://twitter.com/anonjr
 
-# Site Config
-tag_pages_layout: tagpage
-show_drafts:      false
+paginate:         5
+paginate_path:    "page/:num"
+
+# Custom vars
+version:          2.1.1
+
+github:
+  repo:           https://github.com/ASP-Ajaxed
 
 # Google Analytics
 google_analytics_tracking_id:
-
-# Permalinks
-permalink:        /:categories/:title/
-paginate_path:    "page/:num"
-
-paginate:         5
 
 # Misc
 exclude:
